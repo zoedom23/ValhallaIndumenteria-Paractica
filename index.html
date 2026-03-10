@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valhalla Indumenteria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Valhalla Indumenteria</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="header-content container">
+        <div class="header-img">
+            <img src="img/right.png" alt="">
+        </div>
+        <div class="header-text">
+            <h1>Valhalla Indumenteria</h1>
+            <p>La mejor indumenteria para vos</p>
+        </div>
+    </div>
+    <main class="products container" id="lista-1">
+        <h2>Productos</h2>
+        <div class="products-content">
+            <!-- Producto 1 -->
+            <div class="product">
+                <div class="carousel">
+                    <img src="img/Deporte/Camiseta 1.jpg" alt="Camiseta 1" class="active">
+                    <img src="img/Deporte/Camiseta 1.2.jpg" alt="Camiseta 1.2">
+                    <button class="prev">&#8249;</button>
+                    <button class="next">&#8250;</button>
+                </div>
+                <div class="product-text">
+                    <h3>Camiseta del Inter de Milán Personalizada</h3>
+                    <p>Buena calidad</p>
+                    <p class="precio">$9.999</p>
+
+                    <!-- Selector de Talle -->
+                    <label for="talle">Talle:</label>
+                    <select id="talle" class="talle-select">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product">
+                <div class="carousel">
+                    <img src="img/Deporte/Camiseta 2.jpg" alt="Camiseta 2" class="active">
+                    <img src="img/Deporte/Camiseta 2.2.jpg" alt="Camiseta 2.2">
+                    <button class="prev">&#8249;</button>
+                    <button class="next">&#8250;</button>
+                </div>
+                <div class="product-text">
+                    <h3>Camiseta de Real Madrid Personalizada</h3>
+                    <p>Buena calidad</p>
+                    <p class="precio">$9.999</p>
+
+                    <!-- Selector de Talle -->
+                    <label for="talle">Talle:</label>
+                    <select id="talle" class="talle-select">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product">
+                <div class="carousel">
+                    <img src="img/Deporte/Camiseta 3.jpg" alt="Camiseta 3" class="active">
+                    <img src="img/Deporte/Camiseta 3.2.jpg" alt="Camiseta 3.2">
+                    <button class="prev">&#8249;</button>
+                    <button class="next">&#8250;</button>
+                </div>
+                <div class="product-text">
+                    <h3>Camiseta de Barcelona Personalizada</h3>
+                    <p>Buena calidad</p>
+                    <p class="precio">$9.999</p>
+
+                    <!-- Selector de Talle -->
+                    <label for="talle">Talle:</label>
+                    <select id="talle" class="talle-select">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product">
+                <div class="carousel">
+                    <img src="img/Deporte/Camiseta 4.jpg" alt="Camiseta 4" class="active">
+                    <img src="img/Deporte/Camiseta 4.2.jpg" alt="Camiseta 4.2">
+                    <button class="prev">&#8249;</button>
+                    <button class="next">&#8250;</button>
+                </div>
+                <div class="product-text">
+                    <h3>Camiseta de Boca Juniors Personalizada</h3>
+                    <p>Buena calidad</p>
+                    <p class="precio">$9.999</p>
+
+                    <!-- Selector de Talle -->
+                    <label for="talle">Talle:</label>
+                    <select id="talle" class="talle-select">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product">
+                <div class="carousel">
+                    <img src="img/Deporte/Camiseta 5.jpg" alt="Camiseta 5" class="active">
+                    <img src="img/Deporte/Camiseta 5.2.jpg" alt="Camiseta 5.2">
+                    <button class="prev">&#8249;</button>
+                    <button class="next">&#8250;</button>
+                </div>
+                <div class="product-text">
+                    <h3>Camiseta Retro de Milán Personalizada</h3>
+                    <p>Buena calidad</p>
+                    <p class="precio">$13.999</p>
+
+                    <!-- Selector de Talle -->
+                    <label for="talle">Talle:</label>
+                    <select id="talle" class="talle-select">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="product">
+                <div class="carousel">
+                    <img src="img/Deporte/Camiseta 6.jpg" alt="Camiseta 6" class="active">
+                    <img src="img/Deporte/Camiseta 6.2.jpg" alt="Camiseta 6.2">
+                    <button class="prev">&#8249;</button>
+                    <button class="next">&#8250;</button>
+                </div>
+                <div class="product-text">
+                    <h3>Camiseta Retro del Santos Personalizada</h3>
+                    <p>Buena calidad</p>
+                    <p class="precio">$13.999</p>
+
+                    <!-- Selector de Talle -->
+                    <label for="talle">Talle:</label>
+                    <select id="talle" class="talle-select">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Método de Pago</h3>
+                <ul>
+                    <li>
+                        <img src="img/MP_RGB_HANDSHAKE_color-azul_hori-izq.svg" alt="Mercado Pago">
+                        <a href="#">Mercado Pago</a>
+                    </li>
+                    <li><a href="#">Efectivo</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contactanos</h3>
+                <ul>
+                    <li>
+                        <img src="img/bxl-whatsapp.svg" alt="Whatsapp">
+                        <a href="https://wa.me/543388675572">3388675572</a>
+                    </li>
+                    <li>
+                        <img src="img/bxl-instagram.svg" alt="Instagram">
+                        <a href="https://www.instagram.com/valhalla_barber.2022" target="_blank"
+                            rel="noopener noreferrer"> valhalla_barber</a>
+                    </li>
+                    <li>
+                        <img src="img/bxs-map.svg" alt="Mapa">
+                        <span>Monte Santiago 575</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Valhalla Indumenteria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Carrusel Script -->
+    <script>
+        document.querySelectorAll('.carousel').forEach(carousel => {
+            (function () {
+                const images = carousel.querySelectorAll('img');
+                const prevButton = carousel.querySelector('.prev');
+                const nextButton = carousel.querySelector('.next');
+                let currentIndex = 0;
+
+                function updateCarousel() {
+                    images.forEach((img, index) => {
+                        img.classList.toggle('active', index === currentIndex);
+                    });
+                }
+
+                if (prevButton && nextButton) {
+                    prevButton.addEventListener('click', () => {
+                        currentIndex = (currentIndex - 1 + images.length) % images.length;
+                        updateCarousel();
+                    });
+
+                    nextButton.addEventListener('click', () => {
+                        currentIndex = (currentIndex + 1) % images.length;
+                        updateCarousel();
+                    });
+                }
+
+                updateCarousel();
+            })();
+        });
+    </script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
